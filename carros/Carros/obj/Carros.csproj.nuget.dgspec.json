@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Jullia\\Faculdade\\web\\Carros\\Carros\\Carros.csproj": {}
+    "C:\\Jullia\\Faculdade\\projetos-web\\carros\\Carros\\Carros.csproj": {}
   },
   "projects": {
-    "C:\\Jullia\\Faculdade\\web\\Carros\\Carros\\Carros.csproj": {
+    "C:\\Jullia\\Faculdade\\projetos-web\\carros\\Carros\\Carros.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Jullia\\Faculdade\\web\\Carros\\Carros\\Carros.csproj",
+        "projectUniqueName": "C:\\Jullia\\Faculdade\\projetos-web\\carros\\Carros\\Carros.csproj",
         "projectName": "Carros",
-        "projectPath": "C:\\Jullia\\Faculdade\\web\\Carros\\Carros\\Carros.csproj",
-        "packagesPath": "C:\\Users\\Imendes_012\\.nuget\\packages\\",
-        "outputPath": "C:\\Jullia\\Faculdade\\web\\Carros\\Carros\\obj\\",
+        "projectPath": "C:\\Jullia\\Faculdade\\projetos-web\\carros\\Carros\\Carros.csproj",
+        "packagesPath": "C:\\Users\\Imendes_046\\.nuget\\packages\\",
+        "outputPath": "C:\\Jullia\\Faculdade\\projetos-web\\carros\\Carros\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Imendes_012\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Imendes_046\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

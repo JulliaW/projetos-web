@@ -31,6 +31,6 @@ namespace AlunoCursoIdentity.Models
         [Column(Order = 1)]
         public int? CursoId { get; set; }
 
-        public virtual Curso Curso { get; set; }
+        public virtual Curso? Curso { get; set; }
     }
 }

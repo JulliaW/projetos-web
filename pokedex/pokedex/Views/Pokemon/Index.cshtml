@@ -1,0 +1,64 @@
+﻿@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="container">
+    <div class="banner" style="background-image: url(https://1.bp.blogspot.com/-7kcEmYWxarQ/XyWoE69f1YI/AAAAAAAApN0/q7PY_QZkIcEPzpzWCR69C90X2pIysTPeQCLcBGAsYHQ/d/POKEDEX.png);"
+        <h1>Pokedéx</h1>
+    </div>
+
+    <div class="div-pokemons">
+        @foreach(var pokemon in Model)
+        {
+            <div class="card"> <!--Passar id pokemon quando clicar-->
+                <div class="card-inner">
+                    <img class="card-avatar" src="@pokemon.Url" />
+                    <br>
+                    <br>
+                    <p class="pokemon-descricao">@pokemon.Name</p>
+                </div>
+            </div>
+        }
+    </div>
+
+    <div class="pagination">
+        <a href="#">&laquo;</a>
+        <a href="@Url.Action("Index", "Pokemon", new { pagina = 0})">1</a>
+        <a href="@Url.Action("Index", "Pokemon", new { pagina = 1})">2</a>
+        <a href="@Url.Action("Index", "Pokemon", new { pagina = 2})">3</a>
+        <a href="@Url.Action("Index", "Pokemon", new { pagina = 3})">4</a>
+        <a href="@Url.Action("Index", "Pokemon", new { pagina = 4})">5</a>
+        <a href="#">&raquo;</a>
+    </div>
+</div>
+
+<div class="modal fade" id="modal_pokemon" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div id="modal"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section scripts {
+
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+
+            $.ajaxSetup({ cache: false });
+
+            $(".card").click(function () {
+
+                var id = $(this).data("value");
+
+                $("#modal").load("/Pokemon/Details/" + id, function () {
+                    $('#modal_pokemon').modal("show");
+                });
+            });
+        });
+
+    </script>
+}

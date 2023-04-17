@@ -28,6 +28,6 @@ namespace AlunoCursoIdentity.Models
         [Display(Name = "Professor: ")]
         public string Professor { get; set; }
 
-        public virtual ICollection<Aluno> Alunos { get; set; }
+        public virtual ICollection<Aluno>? Alunos { get; set; }
     }
 }

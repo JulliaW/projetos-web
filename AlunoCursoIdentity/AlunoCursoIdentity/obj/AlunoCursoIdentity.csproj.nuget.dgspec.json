@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Jullia\\Faculdade\\web\\AlunoCursoIdentity\\AlunoCursoIdentity\\AlunoCursoIdentity.csproj": {}
+    "C:\\Jullia\\Faculdade\\projetos-web\\AlunoCursoIdentity\\AlunoCursoIdentity\\AlunoCursoIdentity.csproj": {}
   },
   "projects": {
-    "C:\\Jullia\\Faculdade\\web\\AlunoCursoIdentity\\AlunoCursoIdentity\\AlunoCursoIdentity.csproj": {
+    "C:\\Jullia\\Faculdade\\projetos-web\\AlunoCursoIdentity\\AlunoCursoIdentity\\AlunoCursoIdentity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Jullia\\Faculdade\\web\\AlunoCursoIdentity\\AlunoCursoIdentity\\AlunoCursoIdentity.csproj",
+        "projectUniqueName": "C:\\Jullia\\Faculdade\\projetos-web\\AlunoCursoIdentity\\AlunoCursoIdentity\\AlunoCursoIdentity.csproj",
         "projectName": "AlunoCursoIdentity",
-        "projectPath": "C:\\Jullia\\Faculdade\\web\\AlunoCursoIdentity\\AlunoCursoIdentity\\AlunoCursoIdentity.csproj",
-        "packagesPath": "C:\\Users\\Imendes_012\\.nuget\\packages\\",
-        "outputPath": "C:\\Jullia\\Faculdade\\web\\AlunoCursoIdentity\\AlunoCursoIdentity\\obj\\",
+        "projectPath": "C:\\Jullia\\Faculdade\\projetos-web\\AlunoCursoIdentity\\AlunoCursoIdentity\\AlunoCursoIdentity.csproj",
+        "packagesPath": "C:\\Users\\Imendes_046\\.nuget\\packages\\",
+        "outputPath": "C:\\Jullia\\Faculdade\\projetos-web\\AlunoCursoIdentity\\AlunoCursoIdentity\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Imendes_012\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Imendes_046\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -40,6 +40,10 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[7.0.3, )"
@@ -56,7 +60,7 @@
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
-              "version": "[7.0.4, )"
+              "version": "[7.0.5, )"
             },
             "System.ComponentModel.Annotations": {
               "target": "Package",
@@ -82,7 +86,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }
